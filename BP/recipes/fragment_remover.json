@@ -1,0 +1,31 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "pls:recipe_fragment_remover"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "minecraft:beetroot"
+      },
+      {
+        "item": "minecraft:bone_meal"
+      },
+      {
+        "item": "minecraft:milk_bucket"
+      }
+    ],
+    "unlock": [
+      {
+        "item": "minecraft:beetroot"
+      }
+    ],
+    "result": {
+      "item": "pls:fragment_remover",
+      "count": 1
+    }
+  }
+}

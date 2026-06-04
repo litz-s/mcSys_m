@@ -1,0 +1,54 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "pls:recipe_medley_core"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "bce",
+      "dad",
+      "ecb"
+    ],
+    "key": {
+      "a": {
+        "item": "minecraft:ghast_tear"
+      },
+      "b": {
+        "item": "minecraft:diamond_block"
+      },
+      "c": {
+        "item": "minecraft:emerald_block"
+      },
+      "d": {
+        "item": "minecraft:gold_block"
+      },
+      "e": {
+        "item": "minecraft:netherite_block"
+      }
+    },
+    "unlock": [
+      {
+        "item": "minecraft:ghast_tear"
+      },
+      {
+        "item": "minecraft:diamond_block"
+      },
+      {
+        "item": "minecraft:emerald_block"
+      },
+      {
+        "item": "minecraft:gold_block"
+      },
+      {
+        "item": "minecraft:netherite_block"
+      }
+    ],
+    "result": {
+      "item": "pls:medley_core",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "pls:recipe_coated_copper_board"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "hhh",
+      "hbh",
+      "hhh"
+    ],
+    "key": {
+      "h": {
+        "item": "minecraft:honeycomb"
+      },
+      "b": {
+        "item": "pls:copper_board"
+      }
+    },
+    "unlock": [
+      {
+        "item": "pls:copper_board"
+      }
+    ],
+    "result": {
+      "item": "pls:coated_copper_board",
+      "count": 1
+    }
+  }
+}

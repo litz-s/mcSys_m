@@ -1,0 +1,16 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "pls:heatproof_fragment_diamond",
+      "menu_category": { "category": "items" }
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "item.pls:heatproof_fragment_diamond.name"
+      },
+      "minecraft:icon": "heatproof_fragment_diamond",
+      "minecraft:max_stack_size": 64
+    }
+  }
+}

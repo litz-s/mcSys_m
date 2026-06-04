@@ -1,0 +1,30 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "pls:recipe_copper_core"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " c ",
+      "ccc",
+      " c "
+    ],
+    "key": {
+      "c": {
+        "item": "minecraft:copper_block"
+      }
+    },
+    "unlock": [
+      {
+        "item": "minecraft:copper_block"
+      }
+    ],
+    "result": {
+      "item": "pls:copper_core",
+      "count": 1
+    }
+  }
+}

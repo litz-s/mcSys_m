@@ -1,0 +1,16 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "pls:waterproof_fragment_gold",
+      "menu_category": { "category": "items" }
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "item.pls:waterproof_fragment_gold.name"
+      },
+      "minecraft:icon": "waterproof_fragment_gold",
+      "minecraft:max_stack_size": 64
+    }
+  }
+}

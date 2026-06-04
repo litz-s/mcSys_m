@@ -1,0 +1,42 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "pls:recipe_coolant"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " b ",
+      "cad",
+      " e "
+    ],
+    "key": {
+      "a": {
+        "item": "minecraft:packed_ice"
+      },
+      "b": {
+        "item": "minecraft:white_dye"
+      },
+      "c": {
+        "item": "minecraft:light_blue_dye"
+      },
+      "d": {
+        "item": "minecraft:lime_dye"
+      },
+      "e": {
+        "item": "minecraft:glass_bottle"
+      }
+    },
+    "unlock": [
+      {
+        "item": "minecraft:packed_ice"
+      }
+    ],
+    "result": {
+      "item": "pls:coolant",
+      "count": 1
+    }
+  }
+}

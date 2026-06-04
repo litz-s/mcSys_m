@@ -1,0 +1,39 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "pls:recipe_copper_backpack"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ada",
+      "aca",
+      "aba"
+    ],
+    "key": {
+      "a": {
+        "item": "minecraft:leather"
+      },
+      "b": {
+        "item": "minecraft:stone_block_slab"
+      },
+      "c": {
+        "item": "pls:copper_core"
+      },
+      "d": {
+        "item": "pls:coated_copper_board"
+      }
+    },
+    "unlock": [
+      {
+        "item": "pls:copper_core"
+      }
+    ],
+    "result": {
+      "item": "pls:copper_backpack",
+      "count": 1
+    }
+  }
+}

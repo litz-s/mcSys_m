@@ -1,0 +1,42 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "pls:recipe_overload_core"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "bcb",
+      "cac",
+      "bcb"
+    ],
+    "key": {
+      "a": {
+        "item": "minecraft:dragon_egg"
+      },
+      "b": {
+        "item": "minecraft:glass"
+      },
+      "c": {
+        "item": "pls:medley_core"
+      }
+    },
+    "unlock": [
+      {
+        "item": "minecraft:dragon_egg"
+      },
+      {
+        "item": "minecraft:glass"
+      },
+      {
+        "item": "pls:medley_core"
+      }
+    ],
+    "result": {
+      "item": "pls:overload_core",
+      "count": 1
+    }
+  }
+}

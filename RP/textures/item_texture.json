@@ -1,0 +1,165 @@
+{
+  "resource_pack_name": "survival_hardcore",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "vitality_restorer": {
+      "textures": "textures/items/vitality_restorer"
+    },
+    "positive_tonic": {
+      "textures": "textures/items/positive_tonic"
+    },
+    "stimulants": {
+      "textures": "textures/items/stimulants"
+    },
+    "high_stimulants": {
+      "textures": "textures/items/high_stimulants"
+    },
+    "waterproof_fragment_leather": {
+      "textures": "textures/items/waterproof_fragment_leather"
+    },
+    "waterproof_fragment_chain": {
+      "textures": "textures/items/waterproof_fragment_chain"
+    },
+    "waterproof_fragment_copper": {
+      "textures": "textures/items/waterproof_fragment_copper"
+    },
+    "waterproof_fragment_iron": {
+      "textures": "textures/items/waterproof_fragment_iron"
+    },
+    "waterproof_fragment_gold": {
+      "textures": "textures/items/waterproof_fragment_gold"
+    },
+    "waterproof_fragment_diamond": {
+      "textures": "textures/items/waterproof_fragment_diamond"
+    },
+    "waterproof_fragment_netherite": {
+      "textures": "textures/items/waterproof_fragment_netherite"
+    },
+    "heatproof_fragment_leather": {
+      "textures": "textures/items/heatproof_fragment_leather"
+    },
+    "heatproof_fragment_chain": {
+      "textures": "textures/items/heatproof_fragment_chain"
+    },
+    "heatproof_fragment_copper": {
+      "textures": "textures/items/heatproof_fragment_copper"
+    },
+    "heatproof_fragment_iron": {
+      "textures": "textures/items/heatproof_fragment_iron"
+    },
+    "heatproof_fragment_gold": {
+      "textures": "textures/items/heatproof_fragment_gold"
+    },
+    "heatproof_fragment_diamond": {
+      "textures": "textures/items/heatproof_fragment_diamond"
+    },
+    "heatproof_fragment_netherite": {
+      "textures": "textures/items/heatproof_fragment_netherite"
+    },
+    "coolant": {
+      "textures": "textures/items/coolant"
+    },
+    "heat_acceleration": {
+      "textures": "textures/items/heat_acceleration"
+    },
+    "stackable_water_bottle": {
+      "textures": "textures/items/stackable_water_bottle"
+    },
+    "mania_saturation": {
+      "textures": "textures/items/mania_saturation"
+    },
+    "mania_ignition": {
+      "textures": "textures/items/mania_ignition"
+    },
+    "mania_gravity": {
+      "textures": "textures/items/mania_gravity"
+    },
+    "mania_infinity": {
+      "textures": "textures/items/mania_infinity"
+    },
+    "mania_corrosion": {
+      "textures": "textures/items/mania_corrosion"
+    },
+    "mania_remover": {
+      "textures": "textures/items/mania_remover"
+    },
+    "voidguard_fragment_leather": {
+      "textures": "textures/items/voidguard_fragment_leather"
+    },
+    "voidguard_fragment_chain": {
+      "textures": "textures/items/voidguard_fragment_chain"
+    },
+    "voidguard_fragment_copper": {
+      "textures": "textures/items/voidguard_fragment_copper"
+    },
+    "voidguard_fragment_gold": {
+      "textures": "textures/items/voidguard_fragment_gold"
+    },
+    "voidguard_fragment_iron": {
+      "textures": "textures/items/voidguard_fragment_iron"
+    },
+    "voidguard_fragment_diamond": {
+      "textures": "textures/items/voidguard_fragment_diamond"
+    },
+    "voidguard_fragment_netherite": {
+      "textures": "textures/items/voidguard_fragment_netherite"
+    },
+    "copper_core": {
+      "textures": "textures/items/copper_core"
+    },
+    "copper_board": {
+      "textures": "textures/items/copper_board"
+    },
+    "coated_copper_board": {
+      "textures": "textures/items/coated_copper_board"
+    },
+    "copper_backpack": {
+      "textures": "textures/items/copper_backpack"
+    },
+    "auto_use_fragment": {
+      "textures": "textures/items/auto_use_fragment"
+    },
+    "extra_drop_fragment_1": {
+      "textures": "textures/items/extra_drop_fragment_1"
+    },
+    "extra_drop_fragment_2": {
+      "textures": "textures/items/extra_drop_fragment_2"
+    },
+    "extra_drop_fragment_3": {
+      "textures": "textures/items/extra_drop_fragment_3"
+    },
+    "icon_fragment_of_mass": {
+      "textures": "textures/items/fragment_of_mass"
+    },
+    "fragment_of_mass": {
+      "textures": "textures/items/fragment_of_mass"
+    },
+    "fragment_remover": {
+      "textures": "textures/items/fragment_remover"
+    },
+    "shift_tyelya": {
+      "textures": "textures/items/shift_tyelya"
+    },
+    "shift_tyelya_t": {
+      "textures": "textures/items/shift_tyelya_t"
+    },
+    "shift_tyelya_s": {
+      "textures": "textures/items/shift_tyelya_s"
+    },
+    "shift_tyelya_l": {
+      "textures": "textures/items/shift_tyelya_l"
+    },
+    "overload_core": {
+      "textures": "textures/items/overload_core"
+    },
+    "medley_core": {
+      "textures": "textures/items/medley_core"
+    },
+    "overload_fragment": {
+      "textures": "textures/items/overload_fragment"
+    },
+    "portalshit_fragment": {
+      "textures": "textures/items/portalshit_fragment"
+    }
+  }
+}

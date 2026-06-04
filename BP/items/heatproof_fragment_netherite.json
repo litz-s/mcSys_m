@@ -1,0 +1,16 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "pls:heatproof_fragment_netherite",
+      "menu_category": { "category": "items" }
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "item.pls:heatproof_fragment_netherite.name"
+      },
+      "minecraft:icon": "heatproof_fragment_netherite",
+      "minecraft:max_stack_size": 64
+    }
+  }
+}

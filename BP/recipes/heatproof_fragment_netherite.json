@@ -1,0 +1,15 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": { "identifier": "pls:recipe_heatproof_netherite" },
+    "tags": [ "crafting_table" ],
+    "pattern": [ " c ", "aba", " c " ],
+    "key": {
+      "a": { "item": "minecraft:netherite_ingot" },
+      "b": { "item": "minecraft:breeze_rod" },
+      "c": { "item": "minecraft:netherite_scrap" }
+    },
+    "unlock": [{ "item": "minecraft:netherite_ingot" }],
+    "result": { "item": "pls:heatproof_fragment_netherite" }
+  }
+}

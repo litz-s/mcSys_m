@@ -1,0 +1,45 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "pls:recipe_mania_gravity"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "cad",
+      "aba",
+      "eaf"
+    ],
+    "key": {
+      "a": {
+        "item": "minecraft:echo_shard"
+      },
+      "b": {
+        "item": "minecraft:lodestone"
+      },
+      "c": {
+        "item": "minecraft:ender_eye"
+      },
+      "d": {
+        "item": "minecraft:slime"
+      },
+      "e": {
+        "item": "minecraft:hardened_clay"
+      },
+      "f": {
+        "item": "minecraft:amethyst_block"
+      }
+    },
+    "unlock": [
+      {
+        "item": "minecraft:echo_shard"
+      }
+    ],
+    "result": {
+      "item": "pls:mania_gravity",
+      "count": 1
+    }
+  }
+}

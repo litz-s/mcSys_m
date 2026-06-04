@@ -1,0 +1,57 @@
+item.pls:waterproof_fragment_leather.name=防水の欠片 I
+item.pls:waterproof_fragment_chain.name=防水の欠片 II
+item.pls:waterproof_fragment_copper.name=防水の欠片 III
+item.pls:waterproof_fragment_iron.name=防水の欠片 V
+item.pls:waterproof_fragment_gold.name=防水の欠片 IV
+item.pls:waterproof_fragment_diamond.name=防水の欠片 VI
+item.pls:waterproof_fragment_netherite.name=防水の欠片 VII
+
+item.pls:heatproof_fragment_leather.name=耐熱の欠片 I
+item.pls:heatproof_fragment_chain.name=耐熱の欠片 II
+item.pls:heatproof_fragment_copper.name=耐熱の欠片 III
+item.pls:heatproof_fragment_iron.name=耐熱の欠片 V
+item.pls:heatproof_fragment_gold.name=耐熱の欠片 IV
+item.pls:heatproof_fragment_diamond.name=耐熱の欠片 VI
+item.pls:heatproof_fragment_netherite.name=耐熱の欠片 VII
+
+item.pls:vitality_restorer.name=気力修復剤
+item.pls:positive_tonic.name=活力剤
+item.pls:stimulants.name=覚醒剤
+item.pls:high_stimulants.name=超覚醒剤
+item.pls:coolant.name=冷却剤
+item.pls:heat_acceleration.name=炎上剤
+item.pls:water_bottle.name=水の小瓶
+
+item.pls:mania_saturation.name=躁魂 - 飽和
+item.pls:mania_ignition.name=躁魂 - 活焼
+item.pls:mania_gravity.name=躁魂 - 重圧
+item.pls:mania_infinity.name=躁魂 - 無限
+item.pls:mania_corrosion.name=躁魂 - 蝕麟
+item.pls:mania_remover.name=剥離剤
+item.pls:voidguard_fragment_leather.name=浮郭の欠片 I
+item.pls:voidguard_fragment_chain.name=浮郭の欠片 II
+item.pls:voidguard_fragment_copper.name=浮郭の欠片 III
+item.pls:voidguard_fragment_gold.name=浮郭の欠片 IV
+item.pls:voidguard_fragment_iron.name=浮郭の欠片 V
+item.pls:voidguard_fragment_diamond.name=浮郭の欠片 VI
+item.pls:voidguard_fragment_netherite.name=浮郭の欠片 VII
+
+item.pls:copper_core.name=銅のコア
+item.pls:copper_backpack.name=銅のバックパック
+item.pls:copper_board.name=銅板
+item.pls:coated_copper_board.name=コーティング済みの銅板
+item.pls:auto_use_fragment.name=自動使用の欠片
+item.pls:extra_drop_fragment_1.name=追加ドロップの欠片 I
+item.pls:extra_drop_fragment_2.name=追加ドロップの欠片 II
+item.pls:extra_drop_fragment_3.name=追加ドロップの欠片 III
+item.pls:fragment_of_mass.name=一括破壊の欠片
+
+item.pls:fragment_remover.name=欠片除去の欠片
+item.pls:shift_tyelya.name=シフトティリア
+item.pls:shift_tyelya_t.name=シフトティリアT
+item.pls:shift_tyelya_s.name=シフトティリアS
+item.pls:shift_tyelya_l.name=シフトティリアL
+item.pls:overload_core.name=超越のコア
+item.pls:medley_core.name=メドレーコア
+item.pls:overload_fragment.name=超越の欠片
+item.pls:portalshit_fragment.name=転仰の欠片

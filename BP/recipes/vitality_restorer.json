@@ -1,0 +1,20 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": { "identifier": "pls:recipe_vitality_restorer" },
+    "tags": ["crafting_table"],
+    "pattern": [
+      "abc",
+      " d ",
+      "   "
+    ],
+    "key": {
+      "a": { "item": "minecraft:rotten_flesh" },
+      "b": { "item": "minecraft:sugar" },
+      "c": { "item": "minecraft:melon_slice" },
+      "d": { "item": "minecraft:glass_bottle" }
+    },
+    "unlock": [{ "item": "minecraft:rotten_flesh" }],
+    "result": { "item": "pls:vitality_restorer", "count": 1 }
+  }
+}

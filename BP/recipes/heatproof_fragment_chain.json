@@ -1,0 +1,15 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": { "identifier": "pls:recipe_heatproof_chain" },
+    "tags": [ "crafting_table" ],
+    "pattern": [ " c ", "aba", " c " ],
+    "key": {
+      "a": { "item": "minecraft:string" },
+      "b": { "item": "minecraft:lava_bucket" },
+      "c": { "item": "minecraft:clay_ball" }
+    },
+    "unlock": [{ "item": "minecraft:string" }],
+    "result": { "item": "pls:heatproof_fragment_chain" }
+  }
+}

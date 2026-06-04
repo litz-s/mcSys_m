@@ -1,0 +1,45 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "pls:recipe_mania_ignition"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "cad",
+      "aba",
+      "eaf"
+    ],
+    "key": {
+      "a": {
+        "item": "minecraft:echo_shard"
+      },
+      "b": {
+        "item": "minecraft:magma"
+      },
+      "c": {
+        "item": "minecraft:nether_wart"
+      },
+      "d": {
+        "item": "minecraft:shroomlight"
+      },
+      "e": {
+        "item": "minecraft:netherite_block"
+      },
+      "f": {
+        "item": "pls:coated_copper_board"
+      }
+    },
+    "unlock": [
+      {
+        "item": "minecraft:echo_shard"
+      }
+    ],
+    "result": {
+      "item": "pls:mania_ignition",
+      "count": 1
+    }
+  }
+}

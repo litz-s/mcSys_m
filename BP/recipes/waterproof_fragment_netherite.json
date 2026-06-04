@@ -1,0 +1,16 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": { "identifier": "pls:recipe_waterproof_netherite" },
+    "tags": [ "crafting_table" ],
+    "pattern": [ " b ", "aca", " d " ],
+    "key": {
+      "a": { "item": "minecraft:netherite_ingot" },
+      "b": { "item": "minecraft:netherite_scrap" },
+      "c": { "item": "minecraft:honeycomb" },
+      "d": { "item": "minecraft:wither_rose" }
+    },
+    "unlock": [{ "item": "minecraft:netherite_ingot" }],
+    "result": { "item": "pls:waterproof_fragment_netherite" }
+  }
+}

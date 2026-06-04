@@ -1,0 +1,36 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "pls:recipe_overload_fragment"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " b ",
+      "bab",
+      " b "
+    ],
+    "key": {
+      "a": {
+        "item": "pls:overload_core"
+      },
+      "b": {
+        "item": "minecraft:end_crystal"
+      }
+    },
+    "unlock": [
+      {
+        "item": "minecraft:end_crystal"
+      },
+      {
+        "item": "pls:overload_core"
+      }
+    ],
+    "result": {
+      "item": "pls:overload_fragment",
+      "count": 1
+    }
+  }
+}

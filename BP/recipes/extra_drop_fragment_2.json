@@ -1,0 +1,54 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "pls:recipe_extra_drop_fragment_2"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " a ",
+      "bcd",
+      " e "
+    ],
+    "key": {
+      "a": {
+        "item": "minecraft:warped_fungus"
+      },
+      "b": {
+        "item": "minecraft:pufferfish"
+      },
+      "c": {
+        "item": "minecraft:calcite"
+      },
+      "d": {
+        "item": "minecraft:cactus_flower"
+      },
+      "e": {
+        "item": "minecraft:crying_obsidian"
+      }
+    },
+    "unlock": [
+      {
+        "item": "minecraft:calcite"
+      },
+      {
+        "item": "minecraft:warped_fungus"
+      },
+      {
+        "item": "minecraft:pufferfish"
+      },
+      {
+        "item": "minecraft:cactus_flower"
+      },
+      {
+        "item": "minecraft:crying_obsidian"
+      }
+    ],
+    "result": {
+      "item": "pls:extra_drop_fragment_2",
+      "count": 1
+    }
+  }
+}

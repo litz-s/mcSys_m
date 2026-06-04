@@ -1,0 +1,15 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": { "identifier": "pls:recipe_heatproof_diamond" },
+    "tags": [ "crafting_table" ],
+    "pattern": [ " c ", "aba", " c " ],
+    "key": {
+      "a": { "item": "minecraft:diamond_block" },
+      "b": { "item": "minecraft:blaze_rod" },
+      "c": { "item": "minecraft:netherbrick" }
+    },
+    "unlock": [{ "item": "minecraft:diamond_block" }],
+    "result": { "item": "pls:heatproof_fragment_diamond" }
+  }
+}

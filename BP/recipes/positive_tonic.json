@@ -1,0 +1,20 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": { "identifier": "pls:recipe_positive_tonic" },
+    "tags": ["crafting_table"],
+    "pattern": [
+      "abc",
+      " d ",
+      "   "
+    ],
+    "key": {
+      "a": { "item": "minecraft:sweet_berries" },
+      "b": { "item": "minecraft:gold_nugget" },
+      "c": { "item": "minecraft:cookie" },
+      "d": { "item": "minecraft:glass_bottle" }
+    },
+    "unlock": [{ "item": "minecraft:gold_nugget" }],
+    "result": { "item": "pls:positive_tonic", "count": 1 }
+  }
+}

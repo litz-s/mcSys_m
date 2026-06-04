@@ -1,0 +1,54 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "pls:recipe_extra_drop_fragment_1"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " a ",
+      "bcd",
+      " e "
+    ],
+    "key": {
+      "a": {
+        "item": "minecraft:spore_blossom"
+      },
+      "b": {
+        "item": "minecraft:sea_pickle"
+      },
+      "c": {
+        "item": "minecraft:calcite"
+      },
+      "d": {
+        "item": "minecraft:glow_ink_sac"
+      },
+      "e": {
+        "item": "minecraft:open_eyeblossom"
+      }
+    },
+    "unlock": [
+      {
+        "item": "minecraft:calcite"
+      },
+      {
+        "item": "minecraft:spore_blossom"
+      },
+      {
+        "item": "minecraft:sea_pickle"
+      },
+      {
+        "item": "minecraft:glow_ink_sac"
+      },
+      {
+        "item": "minecraft:open_eyeblossom"
+      }
+    ],
+    "result": {
+      "item": "pls:extra_drop_fragment_1",
+      "count": 1
+    }
+  }
+}

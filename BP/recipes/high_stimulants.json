@@ -1,0 +1,21 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": { "identifier": "pls:recipe_high_stimulants" },
+    "tags": ["crafting_table"],
+    "pattern": [
+      " c ",
+      "abd",
+      " e "
+    ],
+    "key": {
+      "a": { "item": "minecraft:echo_shard" },
+      "b": { "item": "pls:stimulants" },
+      "c": { "item": "minecraft:wither_rose" },
+      "d": { "item": "minecraft:amethyst_shard" },
+      "e": { "item": "minecraft:glass_bottle" }
+    },
+    "unlock": [{ "item": "minecraft:echo_shard" }, { "item": "pls:stimulants" }],
+    "result": { "item": "pls:high_stimulants", "count": 1 }
+  }
+}

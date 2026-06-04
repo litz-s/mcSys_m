@@ -1,0 +1,45 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "pls:recipe_mania_corrosion"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "cad",
+      "aba",
+      "eaf"
+    ],
+    "key": {
+      "a": {
+        "item": "minecraft:echo_shard"
+      },
+      "b": {
+        "item": "minecraft:conduit"
+      },
+      "c": {
+        "item": "minecraft:skeleton_skull"
+      },
+      "d": {
+        "item": "minecraft:zombie_head"
+      },
+      "e": {
+        "item": "minecraft:creeper_head"
+      },
+      "f": {
+        "item": "minecraft:piglin_head"
+      }
+    },
+    "unlock": [
+      {
+        "item": "minecraft:echo_shard"
+      }
+    ],
+    "result": {
+      "item": "pls:mania_corrosion",
+      "count": 1
+    }
+  }
+}

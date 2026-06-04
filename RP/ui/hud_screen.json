@@ -1,0 +1,347 @@
+{
+  "namespace": "hud",
+  "hud_title_text": {
+    "type": "stack_panel",
+    "size": [
+      "1px",
+      "1px"
+    ],
+    "alpha": 0,
+    "controls": []
+  },
+  "gauge_group": {
+    "type": "panel",
+    "size": [
+      "120px",
+      "88px"
+    ],
+    "anchor_from": "bottom_left",
+    "anchor_to": "bottom_left",
+    "offset": [
+      50,
+      -5
+    ],
+    "controls": [
+      {
+        "heat@hud.heat_gauge": {}
+      },
+      {
+        "wetness@hud.wetness_gauge": {}
+      },
+      {
+        "water@hud.water_gauge": {}
+      },
+      {
+        "vitality@hud.vitality_gauge": {}
+      },
+      {
+        "heat_num@hud.heat_number_image": {}
+      },
+      {
+        "wetness_num@hud.wetness_number_image": {}
+      },
+      {
+        "voidp@hud.void_pressure_gauge": {}
+      },
+      {
+        "mania@hud.mania_slots_image": {}
+      },
+      {
+        "voidp_num@hud.void_pressure_number_image": {}
+      }
+    ]
+  },
+  "heat_gauge": {
+    "type": "panel",
+    "size": [
+      "90px",
+      "9px"
+    ],
+    "anchor_from": "bottom_left",
+    "anchor_to": "bottom_left",
+    "offset": [
+      0,
+      -36
+    ],
+    "controls": [
+      {
+        "bar@hud.heat_texture_image": {}
+      }
+    ]
+  },
+  "wetness_gauge": {
+    "type": "panel",
+    "size": [
+      "90px",
+      "9px"
+    ],
+    "anchor_from": "bottom_left",
+    "anchor_to": "bottom_left",
+    "offset": [
+      0,
+      -24
+    ],
+    "controls": [
+      {
+        "bar@hud.wetness_texture_image": {}
+      }
+    ]
+  },
+  "water_gauge": {
+    "type": "panel",
+    "size": [
+      "90px",
+      "9px"
+    ],
+    "anchor_from": "bottom_left",
+    "anchor_to": "bottom_left",
+    "offset": [
+      0,
+      -12
+    ],
+    "controls": [
+      {
+        "bar@hud.water_texture_image": {}
+      }
+    ]
+  },
+  "vitality_gauge": {
+    "type": "panel",
+    "size": [
+      "90px",
+      "9px"
+    ],
+    "anchor_from": "bottom_left",
+    "anchor_to": "bottom_left",
+    "offset": [
+      0,
+      0
+    ],
+    "controls": [
+      {
+        "bar@hud.vitality_texture_image": {}
+      }
+    ]
+  },
+  "root_panel": {
+    "modifications": [
+      {
+        "array_name": "controls",
+        "operation": "insert_front",
+        "value": [
+          {
+            "custom_gauge_group@hud.gauge_group": {}
+          }
+        ]
+      }
+    ]
+  },
+  "heat_texture_image": {
+    "type": "image",
+    "texture": "textures/ui/heat_bar/value_0",
+    "size": [
+      "100%",
+      "100%"
+    ],
+    "bindings": [
+      {
+        "binding_name": "#hud_title_text_string"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "((%.100s * (#hud_title_text_string - (%.0s * #hud_title_text_string))) - '\t')",
+        "target_property_name": "#texture"
+      }
+    ]
+  },
+  "wetness_texture_image": {
+    "type": "image",
+    "texture": "textures/ui/wetness_bar/value_0",
+    "size": [
+      "100%",
+      "100%"
+    ],
+    "bindings": [
+      {
+        "binding_name": "#hud_title_text_string"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "((%.100s * (#hud_title_text_string - (%.100s * #hud_title_text_string))) - '\t')",
+        "target_property_name": "#texture"
+      }
+    ]
+  },
+  "water_texture_image": {
+    "type": "image",
+    "texture": "textures/ui/water_gauge/value_7",
+    "size": [
+      "100%",
+      "100%"
+    ],
+    "bindings": [
+      {
+        "binding_name": "#hud_title_text_string"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "((%.100s * (#hud_title_text_string - (%.200s * #hud_title_text_string))) - '\t')",
+        "target_property_name": "#texture"
+      }
+    ]
+  },
+  "vitality_texture_image": {
+    "type": "image",
+    "texture": "textures/ui/vitality_gauge/value_5",
+    "size": [
+      "100%",
+      "100%"
+    ],
+    "bindings": [
+      {
+        "binding_name": "#hud_title_text_string"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "((%.100s * (#hud_title_text_string - (%.300s * #hud_title_text_string))) - '\t')",
+        "target_property_name": "#texture"
+      }
+    ]
+  },
+  "heat_number_image": {
+    "type": "image",
+    "texture": "textures/ui/heat_number/value_0",
+    "size": [
+      "90px",
+      "9px"
+    ],
+    "anchor_from": "bottom_left",
+    "anchor_to": "bottom_left",
+    "offset": [
+      0,
+      -36
+    ],
+    "layer": 20,
+    "bindings": [
+      {
+        "binding_name": "#hud_title_text_string"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "((%.100s * (#hud_title_text_string - (%.400s * #hud_title_text_string))) - '\t')",
+        "target_property_name": "#texture"
+      }
+    ]
+  },
+  "wetness_number_image": {
+    "type": "image",
+    "texture": "textures/ui/wetness_number/value_0",
+    "size": [
+      "90px",
+      "9px"
+    ],
+    "anchor_from": "bottom_left",
+    "anchor_to": "bottom_left",
+    "offset": [
+      0,
+      -24
+    ],
+    "layer": 20,
+    "bindings": [
+      {
+        "binding_name": "#hud_title_text_string"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "((%.100s * (#hud_title_text_string - (%.500s * #hud_title_text_string))) - '\t')",
+        "target_property_name": "#texture"
+      }
+    ]
+  },
+  "void_pressure_gauge": {
+    "type": "panel",
+    "size": [
+      "90px",
+      "9px"
+    ],
+    "anchor_from": "bottom_left",
+    "anchor_to": "bottom_left",
+    "offset": [
+      0,
+      -48
+    ],
+    "controls": [
+      {
+        "bar@hud.void_pressure_texture_image": {}
+      }
+    ]
+  },
+  "mania_slots_image": {
+    "type": "image",
+    "texture": "textures/ui/mania_slots/value_0",
+    "size": [
+      "90px",
+      "16px"
+    ],
+    "anchor_from": "bottom_left",
+    "anchor_to": "bottom_left",
+    "offset": [
+      0,
+      -68
+    ],
+    "layer": 20,
+    "bindings": [
+      {
+        "binding_name": "#hud_title_text_string"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "((%.100s * (#hud_title_text_string - (%.700s * #hud_title_text_string))) - '\t')",
+        "target_property_name": "#texture"
+      }
+    ]
+  },
+  "void_pressure_texture_image": {
+    "type": "image",
+    "texture": "textures/ui/void_pressure_bar/value_0",
+    "size": [
+      "100%",
+      "100%"
+    ],
+    "bindings": [
+      {
+        "binding_name": "#hud_title_text_string"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "((%.100s * (#hud_title_text_string - (%.600s * #hud_title_text_string))) - '\t')",
+        "target_property_name": "#texture"
+      }
+    ]
+  },
+  "void_pressure_number_image": {
+    "type": "image",
+    "texture": "textures/ui/heat_number/value_0",
+    "size": [
+      "90px",
+      "9px"
+    ],
+    "anchor_from": "bottom_left",
+    "anchor_to": "bottom_left",
+    "offset": [
+      0,
+      -48
+    ],
+    "layer": 20,
+    "bindings": [
+      {
+        "binding_name": "#hud_title_text_string"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "((%.100s * (#hud_title_text_string - (%.800s * #hud_title_text_string))) - '\t')",
+        "target_property_name": "#texture"
+      }
+    ]
+  }
+}

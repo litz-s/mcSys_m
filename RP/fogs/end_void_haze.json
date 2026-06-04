@@ -1,0 +1,25 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:fog_settings": {
+    "description": {
+      "identifier": "shc:end_void_haze"
+    },
+    "distance": {
+      "air": {
+        "fog_start": 0.0,
+        "fog_end": 45.0,
+        "fog_color": "#13001f",
+        "render_distance_type": "fixed"
+      }
+    },
+    "volumetric": {
+      "density": {
+        "air": {
+          "max_density": 0.35,
+          "max_density_height": 64.0,
+          "zero_density_height": 320.0
+        }
+      }
+    }
+  }
+}

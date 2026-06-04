@@ -1,0 +1,16 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": { "identifier": "pls:recipe_waterproof_copper" },
+    "tags": [ "crafting_table" ],
+    "pattern": [ " b ", "aca", " d " ],
+    "key": {
+      "a": { "item": "minecraft:copper_ingot" },
+      "b": { "item": "minecraft:phantom_membrane" },
+      "c": { "item": "minecraft:honeycomb" },
+      "d": { "item": "minecraft:dried_kelp" }
+    },
+    "unlock": [{ "item": "minecraft:copper_ingot" }],
+    "result": { "item": "pls:waterproof_fragment_copper" }
+  }
+}

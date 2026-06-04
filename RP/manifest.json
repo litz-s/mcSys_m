@@ -1,0 +1,30 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "Survival Hardcore Addon - Resource Pack",
+    "name": "Survival Hardcore RP",
+    "uuid": "463b096a-0ecc-4c7d-a983-f2a14f5cee70",
+    "version": [
+      1,
+      0,
+      89
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "description": "Resource Pack Module",
+      "type": "resources",
+      "uuid": "05f9bce8-cb3e-4f2a-8897-6be96339ecd1",
+      "version": [
+        1,
+        0,
+        89
+      ]
+    }
+  ]
+}

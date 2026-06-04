@@ -1,0 +1,42 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "pls:recipe_heat_acceleration"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " b ",
+      "cad",
+      " e "
+    ],
+    "key": {
+      "a": {
+        "item": "minecraft:magma"
+      },
+      "b": {
+        "item": "minecraft:copper_ingot"
+      },
+      "c": {
+        "item": "minecraft:red_concrete_powder"
+      },
+      "d": {
+        "item": "minecraft:blaze_powder"
+      },
+      "e": {
+        "item": "minecraft:glass_bottle"
+      }
+    },
+    "unlock": [
+      {
+        "item": "minecraft:magma"
+      }
+    ],
+    "result": {
+      "item": "pls:heat_acceleration",
+      "count": 1
+    }
+  }
+}

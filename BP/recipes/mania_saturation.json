@@ -1,0 +1,45 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "pls:recipe_mania_saturation"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "cad",
+      "aba",
+      "eaf"
+    ],
+    "key": {
+      "a": {
+        "item": "minecraft:echo_shard"
+      },
+      "b": {
+        "item": "minecraft:cake"
+      },
+      "c": {
+        "item": "minecraft:golden_apple"
+      },
+      "d": {
+        "item": "minecraft:golden_carrot"
+      },
+      "e": {
+        "item": "minecraft:glow_berries"
+      },
+      "f": {
+        "item": "minecraft:glistering_melon_slice"
+      }
+    },
+    "unlock": [
+      {
+        "item": "minecraft:echo_shard"
+      }
+    ],
+    "result": {
+      "item": "pls:mania_saturation",
+      "count": 1
+    }
+  }
+}

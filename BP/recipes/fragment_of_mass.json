@@ -1,0 +1,48 @@
+{
+  "format_version": "1.20.50",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "pls:recipe_fragment_of_mass"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " a ",
+      "ebe",
+      " c "
+    ],
+    "key": {
+      "a": {
+        "item": "minecraft:golden_pickaxe"
+      },
+      "b": {
+        "item": "minecraft:golden_axe"
+      },
+      "c": {
+        "item": "minecraft:golden_shovel"
+      },
+      "e": {
+        "item": "minecraft:amethyst_shard"
+      }
+    },
+    "unlock": [
+      {
+        "item": "minecraft:golden_pickaxe"
+      },
+      {
+        "item": "minecraft:golden_axe"
+      },
+      {
+        "item": "minecraft:golden_shovel"
+      },
+      {
+        "item": "minecraft:amethyst_shard"
+      }
+    ],
+    "result": {
+      "item": "pls:fragment_of_mass",
+      "count": 1
+    }
+  }
+}

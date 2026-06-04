@@ -1,0 +1,31 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "pls:recipe_auto_use_fragment"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "pls:water_bottle"
+      },
+      {
+        "item": "pls:vitality_restorer"
+      }
+    ],
+    "unlock": [
+      {
+        "item": "pls:water_bottle"
+      },
+      {
+        "item": "pls:vitality_restorer"
+      }
+    ],
+    "result": {
+      "item": "pls:auto_use_fragment",
+      "count": 1
+    }
+  }
+}

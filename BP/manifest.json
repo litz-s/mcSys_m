@@ -1,0 +1,42 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "System",
+    "name": "Survival Hardcore BP",
+    "uuid": "f7352be7-e279-48cd-bb20-d175743562ad",
+    "version": [
+      1,
+      0,
+      89
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "description": "Script Module",
+      "type": "script",
+      "language": "javascript",
+      "uuid": "5873ac59-ae15-45a2-abeb-0944a16d0e2e",
+      "version": [
+        1,
+        0,
+        89
+      ],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.7.0"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "2.0.0"
+    }
+  ]
+}

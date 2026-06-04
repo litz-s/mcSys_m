@@ -1,0 +1,54 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "pls:recipe_extra_drop_fragment_3"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " a ",
+      "bcd",
+      " e "
+    ],
+    "key": {
+      "a": {
+        "item": "minecraft:torchflower"
+      },
+      "b": {
+        "item": "minecraft:pitcher_plant"
+      },
+      "c": {
+        "item": "minecraft:calcite"
+      },
+      "d": {
+        "item": "minecraft:nether_star"
+      },
+      "e": {
+        "item": "minecraft:totem_of_undying"
+      }
+    },
+    "unlock": [
+      {
+        "item": "minecraft:calcite"
+      },
+      {
+        "item": "minecraft:torchflower"
+      },
+      {
+        "item": "minecraft:pitcher_plant"
+      },
+      {
+        "item": "minecraft:nether_star"
+      },
+      {
+        "item": "minecraft:totem_of_undying"
+      }
+    ],
+    "result": {
+      "item": "pls:extra_drop_fragment_3",
+      "count": 1
+    }
+  }
+}
